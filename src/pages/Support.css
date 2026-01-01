@@ -1,0 +1,139 @@
+.support-page {
+  min-height: 100vh;
+}
+
+.support-hero {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--white);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.support-hero .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.support-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.support-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.contact-section {
+  padding: 4rem 0;
+  background: var(--light-bg);
+}
+
+.contact-section .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-card {
+  background: var(--white);
+  padding: 3rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.contact-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.contact-card h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card p {
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.response-time {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.faq-section {
+  padding: 4rem 0;
+}
+
+.faq-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header svg {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faq-item {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateX(5px);
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+}
+
+.faq-item p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .support-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .contact-card {
+    padding: 2rem;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}
