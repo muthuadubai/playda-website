@@ -77,8 +77,18 @@ const Home = () => {
           >
             <div className="phone-mockup">
               <div className="phone-screen">
-                {/* Placeholder for app screenshot */}
-                <div className="screenshot-placeholder">
+                {/* Replace 'app-screenshot.png' with your actual screenshot filename */}
+                <img 
+                  src="/src/assets/images/app-screenshot.png" 
+                  alt="Playda App Screenshot" 
+                  className="app-screenshot"
+                  onError={(e) => {
+                    // Fallback to placeholder if image not found
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="screenshot-placeholder" style={{ display: 'none' }}>
                   <FaMobile size={80} />
                   <p>App Screenshot</p>
                 </div>
