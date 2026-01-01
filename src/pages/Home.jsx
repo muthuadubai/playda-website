@@ -173,17 +173,29 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="dashboard-mockup">
-                <div className="mockup-header">
-                  <div className="mockup-dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <img 
+                  src="/src/assets/images/owner-dashboard.png" 
+                  alt="Playda Owner Dashboard - Payments" 
+                  className="dashboard-screenshot"
+                  onError={(e) => {
+                    // Fallback to placeholder if image not found
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'block';
+                  }}
+                />
+                <div className="dashboard-placeholder" style={{ display: 'none' }}>
+                  <div className="mockup-header">
+                    <div className="mockup-dots">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <p>Owner Dashboard</p>
                   </div>
-                  <p>Owner Dashboard</p>
-                </div>
-                <div className="mockup-content">
-                  <FaChartLine size={60} />
-                  <p>Manage your venue with ease</p>
+                  <div className="mockup-content">
+                    <FaChartLine size={60} />
+                    <p>Manage your venue with ease</p>
+                  </div>
                 </div>
               </div>
             </motion.div>

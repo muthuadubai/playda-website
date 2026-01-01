@@ -285,10 +285,22 @@
 
 /* Dashboard Mockup */
 .dashboard-mockup {
-  background: var(--dark-bg);
+  background: var(--white);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.dashboard-screenshot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.dashboard-placeholder {
+  background: var(--dark-bg);
 }
 
 .mockup-header {

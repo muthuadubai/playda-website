@@ -22,9 +22,15 @@
 
 ## Current Screenshot Usage
 
-- **Hero Section:** `/src/assets/images/app-screenshot.png`
+- **Hero Section (App Screenshot):** `/src/assets/images/app-screenshot.png`
   - Used in: `src/pages/Home.jsx` (line 82)
   - Displays in the phone mockup on the homepage
+  - Recommended: iPhone screenshot of the main app screen
+
+- **Owners Section (Dashboard Screenshot):** `/src/assets/images/owner-dashboard.png`
+  - Used in: `src/pages/Home.jsx` (line 177)
+  - Displays the owner dashboard/payments screen
+  - Recommended: Desktop screenshot (1200-1600px wide) showing payments, bookings, or analytics
 
 ## Tips for Best Results
 
@@ -39,8 +45,15 @@
 
 ```
 src/assets/images/
-├── app-screenshot.png          (Main hero screenshot)
+├── app-screenshot.png          (Main hero screenshot - mobile app)
+├── owner-dashboard.png         (Owner dashboard screenshot - payments/analytics)
 ├── app-screenshot-booking.png  (Optional: Booking flow)
 ├── app-screenshot-courts.png   (Optional: Court listings)
 └── README.md                   (This file)
 ```
+
+## Quick Start
+
+1. Save the payment dashboard screenshot as `owner-dashboard.png` in this folder
+2. Save your mobile app screenshot as `app-screenshot.png` in this folder
+3. Refresh your website to see the changes!
