@@ -18,12 +18,12 @@ The website is now configured to display real screenshots in two places:
 
 ### Step 1: Save the Owner Dashboard Screenshot
 1. Save the payment dashboard image you shared as: `owner-dashboard.png`
-2. Place it in: `src/assets/images/owner-dashboard.png`
+2. Place it in: `public/images/owner-dashboard.png`
 
 ### Step 2: Add Mobile App Screenshot (Optional)
 1. Take a screenshot of your Playda mobile app
 2. Save it as: `app-screenshot.png`
-3. Place it in: `src/assets/images/app-screenshot.png`
+3. Place it in: `public/images/app-screenshot.png`
 
 ### Step 3: View Changes
 - Refresh your website
@@ -54,13 +54,14 @@ The website is now configured to display real screenshots in two places:
 
 ```
 playda-website/
-└── src/
-    └── assets/
-        └── images/
-            ├── app-screenshot.png       ← Mobile app screenshot
-            ├── owner-dashboard.png      ← Dashboard screenshot (payments)
-            └── README.md
+└── public/
+    └── images/
+        ├── app-screenshot.png       ← Mobile app screenshot
+        ├── owner-dashboard.png      ← Dashboard screenshot (payments)
+        └── README.md
 ```
+
+**Important:** Images must be in the `public/images/` folder to work in production (Docker/Cloud Run).
 
 ## ✨ What Happens Next
 

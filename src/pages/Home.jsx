@@ -79,7 +79,7 @@ const Home = () => {
               <div className="phone-screen">
                 {/* Replace 'app-screenshot.png' with your actual screenshot filename */}
                 <img 
-                  src="/src/assets/images/app-screenshot.png" 
+                  src="/images/app-screenshot.png" 
                   alt="Playda App Screenshot" 
                   className="app-screenshot"
                   onError={(e) => {
@@ -174,7 +174,7 @@ const Home = () => {
             >
               <div className="dashboard-mockup">
                 <img 
-                  src="/src/assets/images/owner-dashboard.png" 
+                  src="/images/owner-dashboard.png" 
                   alt="Playda Owner Dashboard - Payments" 
                   className="dashboard-screenshot"
                   onError={(e) => {
