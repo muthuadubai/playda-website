@@ -9,7 +9,7 @@ const Support = () => {
     },
     {
       question: 'What payment methods do you accept?',
-      answer: 'We accept credit/debit cards, Apple Pay, and Google Pay. All payments are processed securely through Stripe.'
+      answer: 'We currently accept Cash and Card payments. All card payments are processed securely through Stripe. Apple Pay and Google Pay will be introduced in upcoming releases.'
     },
     {
       question: 'Can I cancel my booking?',
@@ -26,6 +26,10 @@ const Support = () => {
     {
       question: 'How do I save my payment card?',
       answer: 'During checkout, simply check the "Save this card for future payments" option. Your card will be securely saved for faster future bookings.'
+    },
+    {
+      question: 'How do I delete my account?',
+      answer: 'To delete your account: 1) Open the Playda app and go to the Profile tab, 2) Tap on "Delete Account" at the bottom of the page, 3) Confirm your decision. This action cannot be undone. What will be deleted: Personal info (name, email, phone), Login credentials (MPIN, device info). What will be kept: Anonymized booking and payment records (for legal compliance).'
     },
     {
       question: 'What if I have issues with my booking?',
