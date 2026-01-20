@@ -17,7 +17,7 @@ const Home = () => {
     {
       icon: <FaShieldAlt />,
       title: 'Secure Payments',
-      description: 'Pay safely with card, Apple Pay, or Google Pay via Stripe'
+      description: 'Pay safely with card or cash. All card payments are securely processed via Stripe'
     },
     {
       icon: <FaBolt />,
@@ -38,9 +38,9 @@ const Home = () => {
       description: 'Manage bookings, pricing, and availability from anywhere'
     },
     {
-      icon: <FaBolt />,
-      title: 'Instant Payments',
-      description: 'Receive payments directly with automated reconciliation'
+      icon: <FaChartLine />,
+      title: 'Performance Insights',
+      description: 'Track bookings, revenue trends, and payment analytics in real-time'
     }
   ];
 
@@ -60,9 +60,10 @@ const Home = () => {
               Discover and book the best padel courts in the UAE. Easy booking, exclusive offers, and instant confirmation.
             </p>
             <div className="hero-buttons">
-              <a href="#" className="btn btn-primary">
+              {/* Temporarily hidden until app goes live */}
+              {/* <a href="#" className="btn btn-primary">
                 <FaApple /> Download on App Store
-              </a>
+              </a> */}
               <a href="#features" className="btn btn-secondary">
                 Learn More
               </a>
@@ -215,9 +216,10 @@ const Home = () => {
           >
             <h2>Ready to Play?</h2>
             <p>Download Playda now and book your next padel session in seconds</p>
-            <a href="#" className="btn btn-primary btn-large">
+            {/* Temporarily hidden until app goes live */}
+            {/* <a href="#" className="btn btn-primary btn-large">
               <FaApple /> Download on App Store
-            </a>
+            </a> */}
           </motion.div>
         </div>
       </section>
