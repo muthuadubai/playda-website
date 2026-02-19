@@ -1,4 +1,5 @@
 import { FaEnvelope, FaQuestionCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Support.css';
 
 const Support = () => {
@@ -57,6 +58,15 @@ const Support = () => {
       id: 'retained-data',
       question: 'What data will be retained after account deletion?',
       answer: 'We aim to remove or anonymize personal profile data where possible. We may retain certain records in anonymized form (such as booking/payment records and match history) when required for legal, tax, accounting, fraud prevention, or dispute resolution purposes.'
+    },
+    {
+      id: 'privacy-policy',
+      question: 'Where can I read your Privacy Policy?',
+      answer: (
+        <>
+          You can review our Privacy Policy here: <Link to="/privacy">Privacy Policy</Link>.
+        </>
+      )
     },
     {
       id: 'booking-issues',
