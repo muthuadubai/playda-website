@@ -50,6 +50,11 @@ const Support = () => {
       answer: 'When you invite a player to a match, they can accept or decline from their notifications/invitations. If a match is public and open join is enabled, eligible players may be able to request to join.'
     },
     {
+      id: 'rating-system',
+      question: 'How does player rating work?',
+      answer: 'Playda uses an ELO-style rating system. New players start with a default rating, and your rating increases when you win and decreases when you lose. The amount of change depends on your opponents\' ratings (beating higher-rated players gives a bigger boost). Ratings are updated after a match score is approved by all players, and may adjust more quickly during your first few matches while the system learns your level.'
+    },
+    {
       id: 'delete-account',
       question: 'How do I delete my account?',
       answer: 'To delete your account: 1) Open the Playda app and go to the Profile tab, 2) Tap on "Delete Account" at the bottom of the page, 3) Confirm your decision. This action cannot be undone. Your personal profile and login credentials will be removed/anonymized. Certain records may be retained in anonymized form (for example, bookings, payments, and match records) for legal/accounting, fraud prevention, dispute resolution, and match history integrity purposes.'
