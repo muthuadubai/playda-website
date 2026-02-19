@@ -11,7 +11,7 @@ const Support = () => {
     {
       id: 'payment-methods',
       question: 'What payment methods do you accept?',
-      answer: 'We currently accept Cash and Card payments. All card payments are processed securely through Stripe. Apple Pay and Google Pay will be introduced in upcoming releases.'
+      answer: 'We support secure card payments (processed via Stripe). Apple Pay and Google Pay may be available depending on your device and region. Some venues may also support cash payments.'
     },
     {
       id: 'cancel-booking',
@@ -34,9 +34,24 @@ const Support = () => {
       answer: 'During checkout, simply check the "Save this card for future payments" option. Your card will be securely saved for faster future bookings.'
     },
     {
+      id: 'find-players',
+      question: 'How do I find players or join a match?',
+      answer: 'Open the Matchmaking section in the app to create a match, invite players, or join available public matches (when enabled). You can manage your invitations and match participation directly from the app.'
+    },
+    {
+      id: 'match-invitations',
+      question: 'How do match invitations work?',
+      answer: 'When you invite a player to a match, they can accept or decline from their notifications/invitations. If a match is public and open join is enabled, eligible players may be able to request to join.'
+    },
+    {
       id: 'delete-account',
       question: 'How do I delete my account?',
-      answer: 'To delete your account: 1) Open the Playda app and go to the Profile tab, 2) Tap on "Delete Account" at the bottom of the page, 3) Confirm your decision. This action cannot be undone. What will be deleted: Personal info (name, email, phone), Login credentials (MPIN, device info). What will be kept: Anonymized booking and payment records (for legal compliance). If you have any questions or need assistance about deleting your account, please contact us at playda.support@snkltech.com before proceeding.'
+      answer: 'To delete your account: 1) Open the Playda app and go to the Profile tab, 2) Tap on "Delete Account" at the bottom of the page, 3) Confirm your decision. This action cannot be undone. Your personal profile and login credentials will be removed/anonymized. Certain records may be retained in anonymized form (for example, bookings, payments, and match records) for legal/accounting, fraud prevention, dispute resolution, and match history integrity purposes.'
+    },
+    {
+      id: 'retained-data',
+      question: 'What data will be retained after account deletion?',
+      answer: 'We aim to remove or anonymize personal profile data where possible. We may retain certain records in anonymized form (such as booking/payment records and match history) when required for legal, tax, accounting, fraud prevention, or dispute resolution purposes.'
     },
     {
       id: 'booking-issues',

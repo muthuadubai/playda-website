@@ -28,8 +28,9 @@ const Privacy = () => {
             <ul>
               <li>Name and contact information (phone number, email)</li>
               <li>Profile information (profile picture, preferences)</li>
-              <li>Payment information (processed securely through Stripe)</li>
+              <li>Payment information (processed securely through Stripe, and Apple Pay/Google Pay when available)</li>
               <li>Booking history and preferences</li>
+              <li>Matchmaking information (matches you create/join, invitations, and match history)</li>
             </ul>
 
             <h3>2.2 Location Data</h3>
@@ -50,7 +51,9 @@ const Privacy = () => {
             <p>We use your personal data to:</p>
             <ul>
               <li>Process your bookings and payments</li>
+              <li>Enable matchmaking features such as creating matches, inviting players, and managing participation</li>
               <li>Send booking confirmations and reminders</li>
+              <li>Send important updates related to your bookings and matches (for example, invitations and status updates)</li>
               <li>Provide customer support</li>
               <li>Improve our services and user experience</li>
               <li>Send you promotional offers (with your consent)</li>
@@ -63,7 +66,8 @@ const Privacy = () => {
             <p>We share your data with:</p>
             <ul>
               <li><strong>Venue Partners:</strong> To process your bookings</li>
-              <li><strong>Payment Processors:</strong> Stripe for secure payment processing</li>
+              <li><strong>Payment Processors:</strong> Stripe for secure payment processing (and wallet payments when available)</li>
+              <li><strong>Notification Providers:</strong> To deliver app notifications (e.g., booking and match updates)</li>
               <li><strong>Service Providers:</strong> For hosting, analytics, and customer support</li>
               <li><strong>Legal Authorities:</strong> When required by law</li>
             </ul>
@@ -90,13 +94,17 @@ const Privacy = () => {
               <li>Request data portability</li>
               <li>Withdraw consent at any time</li>
             </ul>
+            <p>
+              You can delete your account directly in the app (Profile → Delete Account). Account deletion is permanent.
+            </p>
           </section>
 
           <section>
             <h2>7. Data Retention</h2>
             <p>
               We retain your personal data for as long as necessary to provide our services and comply 
-              with legal obligations. Booking history is retained for 7 years for accounting purposes.
+              with legal obligations. Certain booking and payment records may be retained for up to 7 years for accounting purposes.
+              We may also retain certain match records in anonymized form when required for fraud prevention, dispute resolution, or match history integrity.
             </p>
           </section>
 
