@@ -14,6 +14,11 @@ const Support = () => {
       answer: 'We support secure card payments (processed via Stripe). Apple Pay and Google Pay may be available depending on your device and region. Some venues may also support cash payments.'
     },
     {
+      id: 'apple-google-pay-unavailable',
+      question: 'Why is Apple Pay / Google Pay not available on my device?',
+      answer: 'Availability depends on your device and setup. On iPhone, Apple Pay may be unavailable if you haven\'t added a card in Wallet, Apple Pay is restricted by your region, or it\'s disabled by device restrictions. On Android, Google Pay may be unavailable if Google Pay isn\'t set up, isn\'t supported on your device, or is restricted in your region. If it\'s unavailable, you can still pay using a card.'
+    },
+    {
       id: 'cancel-booking',
       question: 'Can I cancel my booking?',
       answer: 'Yes, you can cancel bookings from your booking history in the app. Cancellation policies vary by venue, so please check the specific venue\'s policy before booking.'
