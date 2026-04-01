@@ -6,7 +6,7 @@ const Privacy = () => {
       <div className="legal-hero">
         <div className="container">
           <h1>Privacy Policy</h1>
-          <p className="last-updated">Last Updated: January 1, 2026</p>
+          <p className="last-updated">Last Updated: April 1, 2026</p>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const Privacy = () => {
             <p>We collect the following personal information:</p>
             <ul>
               <li>Name and contact information (phone number, email)</li>
-              <li>Profile information (profile picture, preferences)</li>
+              <li>Profile information (profile picture, preferences, and optional gender)</li>
               <li>Payment information (processed securely through Stripe, and Apple Pay/Google Pay when available)</li>
               <li>Booking history and preferences</li>
               <li>Matchmaking information (matches you create/join, invitations, and match history)</li>
@@ -52,6 +52,7 @@ const Privacy = () => {
             <ul>
               <li>Process your bookings and payments</li>
               <li>Enable matchmaking features such as creating matches, inviting players, and managing participation</li>
+              <li>Support match organization and display (including match categories based on optional profile information such as gender)</li>
               <li>Send booking confirmations and reminders</li>
               <li>Send important updates related to your bookings and matches (for example, invitations and status updates)</li>
               <li>Provide customer support</li>
